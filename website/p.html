@@ -32,13 +32,7 @@ li {
 
 
 }
-.flexslider{
-              width:1200px;
-               height:100px;
-              margin-right: auto;
-              margin-left: auto;
 
-            }
 </style>
 
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -86,9 +80,9 @@ li {
         </div>
         <div class="col-md-3 col-sm-4 col-xs-6 pull-right">
             <ul style="list-style-type: none;margin-top: 25%;padding: 0;right:0px;">
-                <li><a href="" target="_blank"><img src="img/facebook_logo.png" height="10%" width="10%"></a></li>
-                <li><a href="" target="_blank"><img src="img/twitter logo.png" height="10%" width="10%"></a></li>
-                <li><a href="" target="_blank"><img src="img/google_logo.png" height="8%%" width="8%"></a></li>
+                <li><a href="" target="_blank"><img src="img/facebook_logo.png" height="7%" width="10%"></a></li>
+                <li><a href="" target="_blank"><img src="img/twitter logo.png" height="7%" width="10%"></a></li>
+                <li><a href="" target="_blank"><img src="img/google_logo.png" height="5%%" width="8%"></a></li>
             </ul>
         </div>
     </div>
@@ -99,29 +93,29 @@ li {
             <div class="flexslider">
                <ul class="slides">
                     <li>
-                        <div class="box">
-                        <p>this is slide1</p>
+                        <!-- <div class="box">
+                        <p>this is slide1</p> -->
 
-                       <!--<img src="img/facebook_logo.png" />-->
-                       </div>
+                       <img src="img/facebook_logo.png" />
+                       <!--</div>-->
                     </li>
                     <li>
-                        <div class="box">
-                           <p>this is slide2</p>
-                           <!--<img src="img/twitter logo.png" /> --> 
-                           </div>
+                        <!-- <div class="box">
+                           <p>this is slide2</p></div> -->
+
+                           <img src="img/twitter logo.png" />  
                     </li>
                     <li>
-                       <div class="box">
-                            <p>this is slide3</p>
-                       <!-- <img src="img/google_logo.png" /> -->
-                       </div>
+                       <!-- <div class="box">
+                            <p>this is slide3</p> </div> -->                      
+                       <img src="img/google_logo.png" />
+
                     </li>
                     <li>
-                       <div class="box">
-                            <p>this is slide4</p>
-                       <!-- <img src="img/google_logo.png" /> -->
-                       </div>
+                       <!-- <div class="box">
+                            <p>this is slide4</p> </div> -->
+                       <img src="img/google_logo.png" />
+                      
                     </li>
                    
 
@@ -137,7 +131,8 @@ li {
             $(window).load(function() {
             $('.flexslider').flexslider({
             animation:"slide",
-            mode:"vertical"
+            mode:"vertical",
+            direction:"vertical"
             });
             });
 </script>
