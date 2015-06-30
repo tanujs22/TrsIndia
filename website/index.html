@@ -1,14 +1,374 @@
 <html>
 <head>
-	<link rel="stylesheet" href="css/bootstrap.css">
+    <meta content="charset=utf-8">
+    <title>TrsIndia</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<style>
+/*body{
+    background-image: url("img/body.png");
+    background-repeat: no-repeat;
+    background-position: right-top; 
+    background-size:100% 100%;
+    display:block;
+    padding:0 !important;
+    margin:0;
+    opacity : 0.9;
+    z-index: -1;
+}*/
+body{
+    overflow-x:hidden;
+    height: 100%;
+}
+#logo{
+    margin-top:-10%;
+    height:20%;
+    width:55%;
+    margin-left:10%;
+}
+
+li {
+   
+    display: inline;
+}
+#head{
+    font-family:;
+    color: 
+
+
+}
+
+.wrap img {
+
+      position:relative;
+      opacity: 0.9;
+      width:100%;
+      height:auto;
+
+    }
+    .wrap .title {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:8%;
+      left:0;
+      z-index:2;
+      text-align:center;
+      color: white;
+      font-size: 40px;
+      font-family: "Times New Roman", Times, serif;
+       
+       
+
+    }
+    .wrap .body {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:37%;
+   
+      z-index:2;
+      text-align:center;
+      color: white;
+      font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+       
+       
+
+    }
+    
+.wrap .element{
+display:block;
+      position:absolute;
+      width:100%;
+      top:74%;
+   
+      z-index:2;
+      text-align:center;
+}
+@media screen and (max-width: 1144px){
+    .wrap .title {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:14%;
+      left:0;
+      z-index:2;
+      text-align:center;
+      color: white;
+      font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+       
+       
+
+    }
+    .wrap .body {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:40%;
+   
+      z-index:2;
+      text-align:center;
+      color: white;
+      font-size: 20px;
+      font-family: "Times New Roman", Times, serif;
+       
+       
+
+    }
+    
+}
+
+@media screen and (max-width: 765px){
+    .wrap .title {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:14%;
+      left:0;
+      z-index:2;
+      text-align:center;
+      color: white;
+      font-size: 20px;
+      font-family: "Times New Roman", Times, serif;
+       
+       
+
+    }
+    .wrap .body {
+      display:block;
+      position:absolute;
+      width:100%;
+      top:37%;
+   
+      z-index:2;
+      text-align:center;
+      color: white;
+      font-size: 15px;
+      font-family: "Times New Roman", Times, serif;
+       
+       
+
+    }
+    
+}
+
+
+}
+</style>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+     
 </head>
-<body>
+<body data-spy="scroll" data-target="#mynavbar">   
+<!-- Navigation bar-->
+<nav class = "navbar navbar-default navbar-fixed-top " id="mynavbar">
+        <div class ="container">
+            <div class ="navbar-header">
+                <button type="button" class ="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><h4>TRS INDIA</h4></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav pull-right">
+			            <li class="active"><a href="#home"><h6>HOME</h6></a></li>
+                        <li><a href="#claims"><h6>CLAIMS</h6></a></li>
+                        <li><a href="#rights" ><h6>YOUR RIGHTS</h6></a></li>
+                        <li><a href="#aboutus"><h6>ABOUT US</h6></a></li>
+                        <li><a href="#faq"><h6>FAQ</h6></a></li>   
+                        <li><a href="#contact"><h6>CONTACT SUPPORT</h6></a></li>
+                </ul>
+            </div>
+        </div>
+
+</nav>
+<!-- End navigation bar-->
+
+<!-- Slider-->
+<div class="fluid-container">
+<div id="home">
+    <div class="row" id="slider1">
+            <div class="flexslider">
+               <ul class="slides">
+
+                    <!--Slider 1-->
+                    <li>
+                        <div class="wrap">
+	                       <img src="img/aero.png" />
+	                       <div class="title">Flight delayed?<br/> Flight cancelled?<br/>You might be entitled for a compensation.</div><br/><br/>
+	                       <div class="body">Do you know that you as a traveller has the right to get compensated<br/> for the trouble caused due to travel delay,
+	                        cancellation or an overbooked flight.<br/> In case of such troubles travel companies owe you a compensation upto Rs.x.<br/> We will help you get the 
+	                        money you are entitled to by law . <br/>We don't get paid if you don't!<br/>That means no win no fee! Claim today! We are here for your travel rights !</div>
+	                        <div class="element"><button type="button" class="btn btn-primary">Start here</button></div>
+                       </div>
+
+                    </li>
+                     <!-- End Slider 1-->
+
+
+                    <!--Slider 2-->
+                    <li>
+                        
+                        <div class="wrap">
+
+                            <img src="img/background.png" />
+                           <div class="title">This is how it works</div>
+                        </div>
+
+                    </li>
+                    <!--End Slider 2-->
+                     
+                    <!--Slider 3-->
+                    <li>
+                        <div class="wrap">                      
+                            <img src="img/background.png" />
+                            <div class="title">Meet our happy customers</div>
+                        </div>
+
+                    </li>
+                    <!--End Slider 3-->
+
+                     <!--Slider 4-->
+                     <!--
+                    <li>
+                        <div class="wrap">
+                            <img src="img/background.png" />
+                            <div class="title">Flight delayed? Flight cancelled?</div>
+                       </div>
+                      
+                    </li>-->
+                    <!--End Slider 4-->
+                   
+                </ul>
+
+            </div>
+
+
+    </div>
+</div>
+</div>
+<!-- End slider-->
+
+<center>
+<!--Claims-->
+<div class="container">
+    <section>
+        <div class="page-header" id="claims">
+            <h2><center>Claims</center></h2>
+         </div>
+         <div class="row">
+    
+        <div class="col-md-3 col-sm-2 col-xs-1">
+        </div>
+           <div class="col-md-6 col-sm-8 col-xs-11">
+            <h1 font size="10" align="center"><b> Step 1. </b></h1>
+            <hr class="fancy-line"> </hr>
+            <h2 font size="10" align="center"><b>See how much money you can get</b></h2>
+            <h2 font size="10" align="center" id="textop"><b>in just 2 easy steps!</b></h2>
+            <br>
+            <h2 font size="10"><b>What happened?</b></h2>
+            <br>
+             <div id="button" align="center">
+             <button type="button" class="btn btn-primary btn-lg">Delayed</button>
+             <button type="button" class="btn btn-primary btn-lg">Cancelled</button>
+             <button type="button" class="btn btn-primary btn-lg">Denied boarding</button>
+             </div>
+            </div>
+    </div>
+
+    </section>
+</div><!--End container-->
+
+
+<!--Your rights-->
+<div class="container">
+    <section>
+        <div class="page-header" id="rights">
+            <h2>Your Rights</h2>
+         </div>
+
+    </section>
+</div><!--End container-->
+
+
+<!--About Us-->
+<div class="container">
+    <section>
+        <div class="page-header" id="aboutus">
+            <h2>About Us</h2>
+         </div>
+
+    </section>
+</div><!--End container-->
+
+<!--FAQ-->
+<div class="container">
+    <section>
+        <div class="page-header" id="faq">
+            <h2>FAQ</h2>
+         </div>
+
+    </section>
+</div><!--End container-->
+
+<!--Contact Us-->
+<div class="container">
+    <section>
+        <div class="page-header" id="contact">
+            <h2>Contact Us</h2>
+         </div>
+
+    </section>
+</div><!--End container-->
+
+
+</center>
 
 
 
 
+<!--
+<div class="fluid-container">
+    <div class="row">
+        <div class="col-md-2 col-sm-3 col-xs-4">
+            <a href="#"><img src="img/logo.png" id="logo"></a>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-2">
+        <h2 id="head">TRS INDIA</h2>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 pull-right">
+            <ul style="list-style-type: none;margin-top: 25%;padding: 0;right:0px;">
+                <li><a href="" target="_blank"><img src="img/facebook_logo.png" height="7%" width="10%"></a></li>
+                <li><a href="" target="_blank"><img src="img/twitter logo.png" height="7%" width="10%"></a></li>
+                <li><a href="" target="_blank"><img src="img/google_logo.png" height="5%%" width="8%"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+-->
+
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+            $('.flexslider').flexslider({
+            // animation:"slide",
+            // pauseOnHover: true,
+            controlNav: false
+            });
+            });
+</script>
 	<!-- JavaScripts -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
 </body>
 </html>
