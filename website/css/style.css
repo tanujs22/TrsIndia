@@ -8,11 +8,11 @@ background-size: cover;
 .navbar-default {
   background-color: #4ca5c5;
   border-color: #2e94b0;
-   position: absolute;
+    position: absolute;
     width: 100%;
     left: 0;
     text-align: center;
-    margin: auto;
+    margin: auto; 
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
