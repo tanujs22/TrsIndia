@@ -1,0 +1,279 @@
+<!Doctype html>
+<html>
+<head>
+<meta content="charset=utf-8">
+
+<title>Claim</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<style>
+body{
+  overflow-x:hidden;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+.img{
+background-size:100% 100%;
+background-repeat: no-repeat;
+background-position:top;
+
+}
+#hr{
+border-color:#0029A3;
+}
+#site-footer{
+  margin-top: 20px;
+}
+
+.modal-header, h4, .close {
+      background-color: #4ca5c5;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  
+#foot {
+  background: #B9B9B3;
+}
+
+#margin
+{
+margin-top:40px;
+}
+
+#body {
+      font-family: "Times New Roman", Times, serif;
+      color:white;
+}
+#top{
+	margin-top:9%;
+	}
+    @media screen and (max-width: 360px){
+	#top{
+	 margin-top:25%;
+	 }
+	
+	}
+</style>
+<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body class="img" id="body" background="img/back.png" >
+<nav class = "navbar navbar-default navbar-fixed-top " id="mynavbar">
+        <div class ="container">
+            <div class ="navbar-header">
+                <button type="button" class ="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand"><a  href="index.html"><h4>TRS INDIA</h4></a></div>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="index.html"><h6>HOME</h6></a></li>
+                        <li><a href="Claim.html"><h6>CLAIMS</h6></a></li>
+                        <li><a href="YourRights.html" ><h6>YOUR RIGHTS</h6></a></li>
+                        <li><a href="Aboutus.html"><h6>ABOUT US</h6></a></li>
+                        <li><a href="Faq.html"><h6>FAQ</h6></a></li>   
+                        <li><a href="Contact.html"><h6>CONTACT SUPPORT</h6></a></li>
+                </ul>
+            </div>
+        </div>
+
+</nav>
+<div class="container">
+<div class="row " id="top">
+ <div class="col-md-4 col-sm-3 col-xs-2" >
+ </div>
+<div class="col-md-4 col-sm-6 col-xs-8" >
+ <h1 font size="10"><b><center>Claim</center></b> </h1>
+ <p></p>
+  <hr id="hr">
+  </div>
+</div>
+</div>
+
+<div class="container">
+        <div class="row">
+    
+            <div class="col-md-3 col-sm-2 col-xs-1">
+            </div>
+             <div class="col-md-6 col-sm-8 col-xs-11">
+                <h2><b> Step 1. </b></h2>
+                <hr class="fancy-line"> </hr>
+                <h3 ><b>See how much money you can get</b></h3>
+                <h3 ><b>in just 2 easy steps!</b></h3>
+                <br>
+                <h2><b>What happened?</b></h4>
+                <br>
+                <div id="button">
+                  <button type="button" class="btn btn-primary btn-md" id="myBtn" data-toggle="modal" data-target="#myModal">Delayed</button>
+                  <button type="button" class="btn btn-primary btn-md" id="myBtn" data-toggle="modal" data-target="#myModal">Cancelled</button>
+                  <button type="button" class="btn btn-primary btn-md" id="myBtn" data-toggle="modal" data-target="#myModal">Denied boarding</button>
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header" style="padding:35px 50px;">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2>Step 2</h2>
+                        <h4>Reach out to us now and we will be in touch with you soon!</h4>
+                      </div>
+                        <div class="modal-body" style="padding:40px 50px; color:black;">
+                      <form  method="post" class="form-horizontal" data-toggle="validator" id="ajax-form">
+                        <div class="form-group">
+                            <label for="fname"><span class="glyphicon glyphicon-user"></span>First name</label>
+                            <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname"><span class="glyphicon glyphicon-user"></span>Last name</label>
+                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last-name" required>
+                        </div>
+                           <div class="form-group">
+                              <label for="email"><span class="glyphicon glyphicon-envelope"></span>Email </label>
+                              <input type="email" class="form-control" id="email" name="email"placeholder="Enter valid email-address" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="Mobile_no"><span class="glyphicon glyphicon-earphone"></span>Mobile Number </label>
+                              <input type="number" class="form-control" id="mobileno" name="mobileno"placeholder="Enter your mobile number" required>
+                          </div>
+                          
+                          <div class="form-group">
+                              <label for="flightno"><span class="glyphicon glyphicon-plane"></span>Flight Number</label>
+                              <input type="text" class="form-control" id="flightno" name="flightno"placeholder="Enter your flight number" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="bookingno"><span class="glyphicon glyphicon-book"></span>Booking Reference Number</label>
+                              <input type="text" class="form-control" id="bookingno" name="bookingno"placeholder="Enter your booking reference number" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="date"><span class="glyphicon glyphicon-calendar"></span>Booking date </label>
+                              <input type="date" class="form-control" id="date" name="date"placeholder="Enter your booking date" required>
+                          </div>
+                           <button type="submit" class="btn btn-success btn-block" id="btnSubmit"><span class="glyphicon glyphicon-off"></span> Submit</button>
+                        </form>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+                 </div>
+                 <br/>
+                 <!-- <h4 id="click" style="font-family :"Times New Roman", Times, serif; font-size:15px;"></h4> -->
+              </div>
+              
+        </div>
+
+    </section>
+</div>
+
+
+
+
+<center>
+<div class="fluid-container" id="foot">
+   <section>
+      <footer id="site-footer">
+ 
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <p>
+              <img src="img/footer.png" class="img-responsive" style="margin-top:15px;" /> </p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <h2><center>Sitemap</center></h2>
+              <hr>
+              <ul style="list-style:none">
+                <li><a href="Claim.html"><center>Start your claim</center></a></li>
+                <li><a href="index.html"><center>Home</center></a></li>
+                <li><a href="YourRights.html"><center>Your rights</center></a></li>
+                <li><a href="Aboutus.html"><center>About us</center></a></li>
+                <li><a href="Faq.html"><center>FAQ</center></a></li>
+                <li><a href="Contact.html"><center>Contact us</center></a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <h2><center>Contact & support</center></h2>
+              <hr>
+              <p><center>
+              <a href="contact@trstravelright.com">contact@trstravelright.com</a><br>
+              +46 (0) 852 001 830<br>
+
+              TRS Travelright Services AB<br>
+              Brännkyrkagatan 44<br>
+              118 22 Stockholm<br> </center>
+              </p>
+          </div>
+        
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <h2><center>Social</center></h2>
+              <hr>
+              <ul style="list-style:none">
+                  <li><a href="www.facebook.com"><center>Facebook</center></a></li>
+                  <li><a href="www.linkedin.com"><center>Linkedin</center></a></li>
+                  <li><a href="www.twitter.com"><center>Twitter</center></a></li>
+                   
+              
+              </ul>
+          </div>
+        </div>
+
+
+   </footer>
+  </section>
+</div>
+</center>
+<!-- JavaScripts -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/validate.min.js"></script>
+<script>
+$('#ajax-form').validator();
+$(document).ready(function(){
+            $("#btnSubmit").on("click", function(e){
+
+                // as you have used hyperlink(a tag), this prevent to redirect to another/same page
+                e.preventDefault();
+
+                // get values from textboxs  
+                var fName = $('#fname').val();
+                var lName = $('#lname').val();
+                var mailId = $('#email').val();
+                var mobNum = $('#mobileno').val();
+                var flightno = $('#flightno').val();
+                var bkngno = $('#bookingno').val();
+                var bdate = $('#date').val();
+
+
+                $.ajax({
+                     // what url should be there ??
+                    url:"http://192.168.1.11/trsindia.in/claimform.php",
+                    type:"POST",
+                    dataType:"json",
+                    data:{type:"claim",FName:fName,LName:lName,Email:mailId, Mob_Num:mobNum,Flight_no:flightno,Book_no:bkngno,Book_date:bdate},
+                    //type: should be same in server code, otherwise code will not run
+                    ContentType:"application/json",
+                    success: function(response){
+                        alert(JSON.stringify(response));
+                    },
+                    error: function(err){
+                        alert(JSON.stringify(err));
+                    }
+                })
+            });
+        });
+</script>
+</body>
+</html>

@@ -70,3 +70,12 @@ background-size: cover;
     background-color: #2e94b0;
   }
 }
+@media (max-width: 360px) {
+  .btn {
+    padding:2px 4px;
+    font-size:7px;
+    line-height: 1;
+  }
+}
+
+}
