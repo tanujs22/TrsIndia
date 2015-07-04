@@ -15,6 +15,7 @@ if(isset($_POST['type']))
         $bookdate=$_POST['Book_date'];
         $query1  = "insert into claim(firstName, lastName,email,flightNo,bookingNo,mobile,date) values('$fname','$lname','$mail','$mobile','$flightno','$bookno','$bookdate')";
         $result1 = mysql_query($query1);
+        
 
         if($result1)
         {
